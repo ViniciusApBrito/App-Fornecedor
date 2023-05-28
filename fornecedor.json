@@ -7,7 +7,8 @@
             "location": "Firelink Shrine",
             "cpf": "",
             "nivel": "Final Boss",
-            "dificulcudade": "Alta"
+            "dificulcudade": "Alta",
+            "opiniao": true
         },
         {
             "id": 2,
@@ -16,7 +17,8 @@
             "location": "Throne of Want",
             "cpf": "",
             "nivel": "Final Boss",
-            "dificulcudade": "Moderado "
+            "dificulcudade": "Moderado",
+            "opiniao": true
         },
         {
             "id": 3,
@@ -25,7 +27,8 @@
             "location": "The Abyss",
             "cpf": "",
             "nivel": "Mini-boss",
-            "dificulcudade": "Moderado "
+            "dificulcudade": "Moderado",
+            "opiniao": true
         }
     ]
 }

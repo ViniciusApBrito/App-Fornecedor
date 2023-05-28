@@ -1,0 +1,32 @@
+{
+    "client": [
+        {
+            "id": 1,
+            "name": "Cleitom",
+            "email": "DarksIII@souls.com",
+            "location": "Cemetery of Ash",
+            "cpf": "",
+            "keys": "true",
+            "class": "hunter"
+        },
+       
+        {
+            "id": 2,
+            "name": "Emilia",
+            "email": "DarksII@souls.com",
+            "location": "Things Betwixt",
+            "cpf": "",
+            "keys": "true",
+            "class": "Thief"
+        },
+        {
+            "id": 2,
+            "name": "Luan",
+            "email": "Darks@souls.com",
+            "location": "Undead Asylum",
+            "cpf": "",
+            "keys": "true",
+            "class": "Warrior"
+        }
+    ]
+}

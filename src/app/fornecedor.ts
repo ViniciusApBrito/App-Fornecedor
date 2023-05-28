@@ -6,4 +6,5 @@ export interface supplier{
     cpf: number;
     nivel: string;//Escrever em que parte do jogo esse boss aparece
     dificulcudade: string;
+    opiniao: string;
 }
