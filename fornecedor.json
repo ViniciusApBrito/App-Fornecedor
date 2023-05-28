@@ -1,0 +1,31 @@
+{
+    "fornecedor": [
+        {
+            "id": 1,
+            "name": "Lords Of Cinder",
+            "email": "DarkIII@souls.com",
+            "location": "Firelink Shrine",
+            "cpf": "",
+            "nivel": "Final Boss",
+            "dificulcudade": "Alta"
+        },
+        {
+            "id": 2,
+            "name": "Nashandra",
+            "email": "DarkII@souls.com",
+            "location": "Throne of Want",
+            "cpf": "",
+            "nivel": "Final Boss",
+            "dificulcudade": "Moderado "
+        },
+        {
+            "id": 3,
+            "name": "Artorias",
+            "email": "Dark@souls.com",
+            "location": "The Abyss",
+            "cpf": "",
+            "nivel": "Mini-boss",
+            "dificulcudade": "Moderado "
+        }
+    ]
+}
