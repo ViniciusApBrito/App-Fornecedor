@@ -1,60 +1,28 @@
-<title>Página de Cliente</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
 
-    .container {
-        width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-    }
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Email</th>
+            <th scope="col">Local</th>
+            <th scope="col">CPF</th>
+            <th scope="col">Nivel</th>
+            <th scope="col">Dificulcudade</th>
+            <th scope="col">Opiniao</th>
 
-    h1 {
-        text-align: center;
-    }
-
-    .cliente-card {
-        background-color: #f5f5f5;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .cliente-card h3 {
-        margin-top: 0;
-    }
-
-    .cliente-card p {
-        margin-bottom: 10px;
-    }
-
-    .cliente-card:last-child {
-        margin-bottom: 0;
-    }
-</style>
-
-<div class="container">
-    <h1>Lista de Clientes</h1>
-
-    <div class="cliente-card">
-        <h3>Fornecedor 1</h3>
-        <p>Endereço: Rua X, 123</p>
-        <p>Telefone: 111-222-3333</p>
-    </div>
-
-    <div class="cliente-card">
-        <h3>Fornecedor 2</h3>
-        <p>Endereço: Rua Y, 456</p>
-        <p>Telefone: 444-555-6666</p>
-    </div>
-
-    <div class="cliente-card">
-        <h3>Fornecedor 3</h3>
-        <p>Endereço: Rua Z, 789</p>
-        <p>Telefone: 777-888-9999</p>
-    </div>
-</div>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let supplier  of supplier">
+            <th scope="row">{{supplier.id}}</th>
+            <th scope="row">{{supplier.name}}</th>
+            <th scope="row">{{supplier.email}}</th>
+            <th scope="row">{{supplier.location}}</th>
+            <th scope="row">{{supplier.cpf}}</th>
+            <th scope="row">{{supplier.nivel}}</th>
+            <th scope="row">{{supplier.dificulcudade}}</th>
+            <th scope="row">{{supplier.opiniao}}</th>
+        </tr>
+    </tbody>
+</table>
