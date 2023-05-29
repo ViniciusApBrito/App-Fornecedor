@@ -5,6 +5,6 @@ export interface Supplier{
     location: string;
     cpf: number;
     nivel: string;//Escrever em que parte do jogo esse boss aparece
-    dificulcudade: string;
+    dificuldade: string;
     opiniao: string;
 }

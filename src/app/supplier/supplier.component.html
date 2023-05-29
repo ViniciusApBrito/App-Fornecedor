@@ -1,28 +1,88 @@
+<div class="mb-3">
+  <label for="name" class="form-label">Denominação Social:</label>
+  <input type="text" formControlName="name" class="form-control" id="name" placeholder="Nome aqui.">
+</div>
+
+<div class="mb-3">
+  <label for="email" class="form-label">Escreva seu email</label>
+  <input type="text" formControlName="email" class="form-control" id="email" placeholder="Email aqui.">
+</div>
+
+
+<div class="mb-3">
+  <label for="location" class="form-label">Diga de onde veio</label>
+  <select class="form-select" aria-label="Default select example" formControlName="location"
+  id="location">
+  <option value="" disabled selected>Escolher</option>
+  <option value="Acre">Acre</option>
+  <option value="Alagoas">Alagoas</option>
+  <option value="Amapá">Amapá</option>
+  <option value="Amazonas">Amazonas</option>
+  <option value="Bahia">Bahia</option>
+  <option value="Ceará">Ceará</option>
+  <option value="Distrito Federal">Distrito Federal</option>
+  <option value="Espírito Santo">Espírito Santo</option>
+  <option value="Goiás">Goiás</option>
+  <option value="Maranhão">Maranhão</option>
+  <option value="Mato Grosso">Mato Grosso</option>
+  <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+  <option value="Minas Gerais">Minas Gerais</option>
+  <option value="Pará">Pará</option>
+  <option value="Paraíba">Paraíba</option>
+  <option value="Paraná">Paraná</option>
+  <option value="Pernambuco">Pernambuco</option>
+  <option value="Piauí">Piauí</option>
+  <option value="Rio de Janeiro">Rio de Janeiro</option>
+  <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+  <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+  <option value="Rondônia">Rondônia</option>
+  <option value="Roraima">Roraima</option>
+  <option value="Santa Catarina">Santa Catarina</option>
+  <option value="São Paulo">São Paulo</option>
+  <option value="Sergipe">Sergipe</option>
+  <option value="Tocantins">Tocantins</option>
+</select>
+</div>
+
+<div class="mb-3">
+  <label for="cpf" class="form-label">CPF:</label>
+  <input type="text" formControlName="cpf" class="form-control" id="cpf" placeholder="CPF aqui.">
+</div>
+
+<div class="mb-3">
+  <label for="nivel" class="form-label">Diga em que parte esta?</label>
+  <input type="text" formControlName="nivel" class="form-control" id="nivel">
+</div>
+
+<div class="mb-3">
+  <label for="dificuldade" class="form-label">dificuldade:</label>
+  <input type="text" formControlName="dificuldade" class="form-control" id="dificuldade" placeholder="dificuldade aqui.">
+</div>
 
 <table class="table">
-    <thead>
-        <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Nome</th>
-            <th scope="col">Email</th>
-            <th scope="col">Local</th>
-            <th scope="col">CPF</th>
-            <th scope="col">Nivel</th>
-            <th scope="col">Dificulcudade</th>
-            <th scope="col">Opiniao</th>
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Email</th>
+      <th scope="col">Local</th>
+      <th scope="col">CPF</th>
+      <th scope="col">Nivel</th>
+      <th scope="col">Dificuldade</th>
+      <th scope="col">Opiniao</th>
 
-        </tr>
-    </thead>
-    <tbody>
-        <tr *ngFor="let supplier  of supplier">
-            <th scope="row">{{supplier.id}}</th>
-            <th scope="row">{{supplier.name}}</th>
-            <th scope="row">{{supplier.email}}</th>
-            <th scope="row">{{supplier.location}}</th>
-            <th scope="row">{{supplier.cpf}}</th>
-            <th scope="row">{{supplier.nivel}}</th>
-            <th scope="row">{{supplier.dificulcudade}}</th>
-            <th scope="row">{{supplier.opiniao}}</th>
-        </tr>
-    </tbody>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let supplier  of supplier">
+      <th scope="row">{{supplier.id}}</th>
+      <th scope="row">{{supplier.name}}</th>
+      <th scope="row">{{supplier.email}}</th>
+      <th scope="row">{{supplier.location}}</th>
+      <th scope="row">{{supplier.cpf}}</th>
+      <th scope="row">{{supplier.nivel}}</th>
+      <th scope="row">{{supplier.dificuldade}}</th>
+      <th scope="row">{{supplier.opiniao}}</th>
+    </tr>
+  </tbody>
 </table>
